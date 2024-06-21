@@ -126,13 +126,25 @@ app.post("/api/v1/movies", async (req, res) => {
 app.put("/api/v1/movies/:id", async (req, res) => {
   try {
     const objID = new ObjectId(req.params.id);
-    // ricevo json come array di oggetti, ogni oggetto contiene un campo, il suo valore, la variabile
+    // ricevo json come array di oggetti i quali contengono i campi da aggiornare oppure da eliminare
     // update con valore booleano che indica di fare $set o $unset
+    // esempio:
+    // [
+    //  {
+    //   "title": "Titanic",
+    //   "update": true
+    //  },
+    //  {
+    //   "rating": "",
+    //   "update": false
+    //  }
+    // ]
 
     const updatingFields = {};
     const deletingFields = {};
 
     const bodyJson = req.body;
+    console.log(bodyJson);
     bodyJson.forEach((elemento) => {
       if (elemento.update) {
         console.log(`${Object.keys(elemento)[0]} è da aggiornare`);
@@ -147,7 +159,10 @@ app.put("/api/v1/movies/:id", async (req, res) => {
 
     const result = await db
       .collection("movies")
-      .updateOne({ _id: objID }, { $set: updatingFields, $unset: deletingFields });
+      .updateOne(
+        { _id: objID },
+        { $set: updatingFields, $unset: deletingFields }
+      );
     res.status(200).json({ success: true, data: result });
   } catch (err) {
     console.log(err.message);
