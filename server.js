@@ -79,6 +79,95 @@ app.get("/api/v1/movies/actor/:actor", async (req, res) => {
   }
 });
 
+// Ottieni movies per "oscar"
+app.get("/api/v1/movies/oscar/:oscar", async (req, res) => {
+  try {
+    let gotOscar = req.params.oscar;
+    switch (gotOscar) {
+      case "true":
+        gotOscar = true;
+        break;
+      case "false":
+        gotOscar = false;
+        break;
+      case "null":
+        gotOscar = null;
+        break;
+      default:
+        gotOscar = null;
+        break;
+    }
+    // console.log(gotOscar);
+    const result = await db
+      .collection("movies")
+      .find({ gotOscar: gotOscar })
+      .toArray();
+    res.status(200).json({ success: true, data: result });
+  } catch (err) {
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
+  }
+});
+
+// Aggiungi un nuovo movie
+app.post("/api/v1/movies", async (req, res) => {
+  try {
+    const movie = req.body;
+    // console.log(movie);
+    const result = await db.collection("movies").insertOne(movie);
+    res.status(201).json({ success: true, data: result });
+  } catch (err) {
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
+  }
+});
+
+// Aggiorna un movie
+app.put("/api/v1/movies/:id", async (req, res) => {
+  try {
+    const objID = new ObjectId(req.params.id);
+    // ricevo json come array di oggetti, ogni oggetto contiene un campo, il suo valore, la variabile
+    // update con valore booleano che indica di fare $set o $unset
+
+    const updatingFields = {};
+    const deletingFields = {};
+
+    const bodyJson = req.body;
+    bodyJson.forEach((elemento) => {
+      if (elemento.update) {
+        console.log(`${Object.keys(elemento)[0]} è da aggiornare`);
+        updatingFields[Object.keys(elemento)[0]] = Object.values(elemento)[0];
+      } else {
+        console.log(`${Object.keys(elemento)[0]} è da rimuovere`);
+        deletingFields[Object.keys(elemento)[0]] = Object.values(elemento)[0];
+      }
+    });
+    console.log(updatingFields);
+    console.log(deletingFields);
+
+    const result = await db
+      .collection("movies")
+      .updateOne({ _id: objID }, { $set: updatingFields, $unset: deletingFields });
+    res.status(200).json({ success: true, data: result });
+  } catch (err) {
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
+  }
+});
+
+// Elimina un movie
+app.delete("/api/v1/movies/:id", async (req, res) => {
+  try {
+    const objID = new ObjectId(req.params.id);
+    // console.log(objID);
+    const result = await db.collection("movies").deleteOne({ _id: objID });
+    res.status(200).json({ success: true, data: result });
+  } catch (err) {
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
+  }
+});
+
 /*** Connessione a MongoDB ed Avvio del server ***/
 connectToDb()
   .then(() => {
