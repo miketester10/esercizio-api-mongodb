@@ -40,8 +40,8 @@ app.get("/api/v1/movies/:id", async (req, res) => {
     const result = await db.collection("movies").findOne({ _id: objID });
     res.status(200).json({ success: true, data: result });
   } catch (err) {
-    console.log(err);
-    res.status(500).json({ success: false, data: err });
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
   }
 });
 
@@ -57,8 +57,8 @@ app.get("/api/v1/movies/director/:director", async (req, res) => {
       .toArray();
     res.status(200).json({ success: true, data: result });
   } catch (err) {
-    console.log(err);
-    res.status(500).json({ success: false, data: err });
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
   }
 });
 
@@ -74,8 +74,8 @@ app.get("/api/v1/movies/actor/:actor", async (req, res) => {
       .toArray();
     res.status(200).json({ success: true, data: result });
   } catch (err) {
-    console.log(err);
-    res.status(500).json({ success: false, data: err });
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
   }
 });
 
