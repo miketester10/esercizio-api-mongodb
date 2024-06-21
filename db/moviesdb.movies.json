@@ -1,0 +1,904 @@
+[{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb3"
+  },
+  "title": "Star Wars: Episode IV - A New Hope",
+  "director": "George Lucas",
+  "year": 1977,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 8.6,
+  "cast": [
+    "Mark Hamill",
+    "Harrison Ford",
+    "Carrie Fisher"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb4"
+  },
+  "title": "Star Wars: Episode V - The Empire Strikes Back",
+  "director": "Irvin Kershner",
+  "year": 1980,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 8.7,
+  "cast": [
+    "Mark Hamill",
+    "Harrison Ford",
+    "Carrie Fisher"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb5"
+  },
+  "title": "Star Wars: Episode VI - Return of the Jedi",
+  "director": "Richard Marquand",
+  "year": 1983,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 8.3,
+  "cast": [
+    "Mark Hamill",
+    "Harrison Ford",
+    "Carrie Fisher"
+  ],
+  "gotOscar": true
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb6"
+  },
+  "title": "Star Wars: Episode I - The Phantom Menace",
+  "director": "George Lucas",
+  "year": 1999,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 6.5,
+  "cast": [
+    "Liam Neeson",
+    "Ewan McGregor",
+    "Natalie Portman"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb7"
+  },
+  "title": "Star Wars: Episode II - Attack of the Clones",
+  "director": "George Lucas",
+  "year": 2002,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 6.6,
+  "cast": [
+    "Hayden Christensen",
+    "Natalie Portman",
+    "Ewan McGregor"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb8"
+  },
+  "title": "Star Wars: Episode III - Revenge of the Sith",
+  "director": "George Lucas",
+  "year": 2005,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 7.5,
+  "cast": [
+    "Hayden Christensen",
+    "Natalie Portman",
+    "Ewan McGregor"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbb9"
+  },
+  "title": "Star Wars: Episode VII - The Force Awakens",
+  "director": "J.J. Abrams",
+  "year": 2015,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 7.8,
+  "cast": [
+    "Daisy Ridley",
+    "John Boyega",
+    "Oscar Isaac"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbba"
+  },
+  "title": "Star Wars: Episode VIII - The Last Jedi",
+  "director": "Rian Johnson",
+  "year": 2017,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 7,
+  "cast": [
+    "Daisy Ridley",
+    "John Boyega",
+    "Mark Hamill"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbbb"
+  },
+  "title": "Star Wars: Episode IX - The Rise of Skywalker",
+  "director": "J.J. Abrams",
+  "year": 2019,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Fantasy"
+  ],
+  "rating": 6.5,
+  "cast": [
+    "Daisy Ridley",
+    "Adam Driver",
+    "John Boyega"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbbc"
+  },
+  "title": "Harry Potter and the Philosopher's Stone",
+  "director": "Chris Columbus",
+  "year": 2001,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.6,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbbd"
+  },
+  "title": "Harry Potter and the Chamber of Secrets",
+  "director": "Chris Columbus",
+  "year": 2002,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.4,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbbe"
+  },
+  "title": "Harry Potter and the Prisoner of Azkaban",
+  "director": "Alfonso Cuarón",
+  "year": 2004,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.9,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbbf"
+  },
+  "title": "Harry Potter and the Goblet of Fire",
+  "director": "Mike Newell",
+  "year": 2005,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.7,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbc0"
+  },
+  "title": "Harry Potter and the Order of the Phoenix",
+  "director": "David Yates",
+  "year": 2007,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.5,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbc1"
+  },
+  "title": "Harry Potter and the Half-Blood Prince",
+  "director": "David Yates",
+  "year": 2009,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.6,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbc2"
+  },
+  "title": "Harry Potter and the Deathly Hallows: Part 1",
+  "director": "David Yates",
+  "year": 2010,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 7.7,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673da1e44b0fbce28e3fbc3"
+  },
+  "title": "Harry Potter and the Deathly Hallows: Part 2",
+  "director": "David Yates",
+  "year": 2011,
+  "genres": [
+    "Adventure",
+    "Family",
+    "Fantasy"
+  ],
+  "rating": 8.1,
+  "cast": [
+    "Daniel Radcliffe",
+    "Rupert Grint",
+    "Emma Watson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8280"
+  },
+  "title": "The Matrix Reloaded",
+  "director": [
+    "Lana Wachowski",
+    "Lilly Wachowski"
+  ],
+  "year": 2003,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "rating": 7.2,
+  "cast": [
+    "Keanu Reeves",
+    "Laurence Fishburne",
+    "Carrie-Anne Moss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8281"
+  },
+  "title": "The Matrix Revolutions",
+  "director": "Lilly Wachowski",
+  "year": 2003,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "rating": 6.8,
+  "cast": [
+    "Keanu Reeves",
+    "Laurence Fishburne",
+    "Carrie-Anne Moss"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8282"
+  },
+  "title": "The Matrix Resurrections",
+  "director": "Lana Wachowski",
+  "year": 2021,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "rating": 5.7,
+  "cast": [
+    "Keanu Reeves",
+    "Carrie-Anne Moss",
+    "Yahya Abdul-Mateen II"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8285"
+  },
+  "title": "The Dark Knight",
+  "director": "Christopher Nolan",
+  "year": 2008,
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "rating": 9,
+  "cast": [
+    "Christian Bale",
+    "Heath Ledger",
+    "Aaron Eckhart"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8289"
+  },
+  "title": "The Shawshank Redemption",
+  "director": "Frank Darabont",
+  "year": 1994,
+  "genres": [
+    "Drama"
+  ],
+  "rating": 9.3,
+  "cast": [
+    "Tim Robbins",
+    "Morgan Freeman",
+    "Bob Gunton"
+  ],
+  "gotOscar": false
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb828a"
+  },
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "director": "Peter Jackson",
+  "year": 2001,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "rating": 8.8,
+  "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Orlando Bloom"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb828b"
+  },
+  "title": "The Lord of the Rings: The Two Towers",
+  "director": "Peter Jackson",
+  "year": 2002,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "rating": 8.7,
+  "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Viggo Mortensen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb828c"
+  },
+  "title": "The Lord of the Rings: The Return of the King",
+  "director": "Peter Jackson",
+  "year": 2003,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "rating": 8.9,
+  "cast": [
+    "Elijah Wood",
+    "Viggo Mortensen",
+    "Ian McKellen"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb828e"
+  },
+  "title": "Schindler's List",
+  "director": "Steven Spielberg",
+  "year": 1993,
+  "genres": [
+    "Biography",
+    "Drama",
+    "History"
+  ],
+  "rating": 9,
+  "cast": [
+    "Liam Neeson",
+    "Ralph Fiennes",
+    "Ben Kingsley"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb828f"
+  },
+  "title": "The Lion King",
+  "director": "Roger Allers, Rob Minkoff",
+  "year": 1994,
+  "genres": [
+    "Animation",
+    "Adventure",
+    "Drama"
+  ],
+  "rating": 8.5
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8290"
+  },
+  "title": "Gladiator",
+  "director": "Ridley Scott",
+  "year": 2000,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "rating": 8.5,
+  "cast": [
+    "Russell Crowe",
+    "Joaquin Phoenix",
+    "Connie Nielsen"
+  ],
+  "gotOscar": true
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8291"
+  },
+  "title": "Jurassic Park",
+  "director": "Steven Spielberg",
+  "year": 1993,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Sci-Fi"
+  ],
+  "rating": 8.1
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8292"
+  },
+  "title": "The Green Mile",
+  "director": "Frank Darabont",
+  "year": 1999,
+  "genres": [
+    "Crime",
+    "Drama",
+    "Fantasy"
+  ],
+  "rating": 8.6,
+  "cast": [
+    "Tom Hanks",
+    "Michael Clarke Duncan",
+    "David Morse"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8293"
+  },
+  "title": "The Departed",
+  "director": "Martin Scorsese",
+  "year": 2006,
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "rating": 8.5,
+  "cast": [
+    "Leonardo DiCaprio",
+    "Matt Damon",
+    "Jack Nicholson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8294"
+  },
+  "title": "Parasite",
+  "director": "Bong Joon Ho",
+  "year": 2019,
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Thriller"
+  ],
+  "rating": 8.6,
+  "cast": [
+    "Kang-ho Song",
+    "Sun-kyun Lee",
+    "Yeo-jeong Jo"
+  ],
+  "gotOscar": true
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8295"
+  },
+  "title": "The Prestige",
+  "director": "Christopher Nolan",
+  "year": 2006,
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Sci-Fi"
+  ],
+  "rating": 8.5,
+  "cast": [
+    "Christian Bale",
+    "Hugh Jackman",
+    "Scarlett Johansson"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8296"
+  },
+  "title": "Whiplash",
+  "director": "Damien Chazelle",
+  "year": 2014,
+  "genres": [
+    "Drama",
+    "Music"
+  ],
+  "rating": 8.5,
+  "cast": [
+    "Miles Teller",
+    "J.K. Simmons",
+    "Paul Reiser"
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8297"
+  },
+  "title": "The Silence of the Lambs",
+  "director": "Jonathan Demme",
+  "year": 1991,
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "rating": 8.6,
+  "cast": [
+    "Jodie Foster",
+    "Anthony Hopkins",
+    "Lawrence A. Bonney"
+  ],
+  "gotOscar": true
+},
+{
+  "_id": {
+    "$oid": "6673dc4834b7dd142cbb8298"
+  },
+  "title": "Saving Private Ryan",
+  "director": "Steven Spielberg",
+  "year": 1998,
+  "genres": [
+    "Drama",
+    "War"
+  ],
+  "rating": 8.6,
+  "cast": [
+    "Tom Hanks",
+    "Matt Damon",
+    "Tom Sizemore"
+  ],
+  "gotOscar": true
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd0d"
+  },
+  "title": "The Good, the Bad and the Ugly",
+  "director": "Sergio Leone",
+  "year": 1966,
+  "genres": [
+    "Western"
+  ],
+  "rating": 8.8,
+  "gotOscar": false,
+  "reviews": [
+    {
+      "author": "Pluto",
+      "title": "Dicono tutti sia un flauto di pan",
+      "body": "invece è un'ocarina"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd0e"
+  },
+  "title": "Forrest Gump",
+  "director": "Robert Zemeckis",
+  "year": 1994,
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "rating": 8.8,
+  "cast": [
+    "Tom Hanks",
+    "Robin Wright",
+    "Gary Sinise"
+  ],
+  "reviews": [
+    {
+      "author": "Pippo",
+      "title": "Mi manca una ricetta coi gamberi",
+      "body": "mi è piaciuto un sacco!"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd0f"
+  },
+  "title": "Fight Club",
+  "director": "David Fincher",
+  "year": 1999,
+  "genres": [
+    "Drama"
+  ],
+  "rating": 8.8,
+  "cast": [
+    "Brad Pitt",
+    "Edward Norton",
+    "Meat Loaf"
+  ],
+  "reviews": [
+    {
+      "author": "Pluto",
+      "title": "Prima regola del fight club",
+      "body": "non lasciare i fogli nella fotocopiatrice!"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd10"
+  },
+  "title": "Pulp Fiction",
+  "director": "Quentin Tarantino",
+  "year": 1994,
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "rating": 8.9,
+  "cast": [
+    "John Travolta",
+    "Uma Thurman",
+    "Samuel L. Jackson"
+  ],
+  "reviews": [
+    {
+      "author": "Pippo",
+      "title": "You never can tell",
+      "body": "un documentario sui piedi della Thurman!"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd11"
+  },
+  "title": "The Godfather",
+  "director": "Francis Ford Coppola",
+  "year": 1972,
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "rating": 9.2,
+  "cast": [
+    "Marlon Brando",
+    "Al Pacino",
+    "James Caan"
+  ],
+  "gotOscar": true,
+  "reviews": [
+    {
+      "author": "Pippo",
+      "title": "Una proposta che non si può rifiutare",
+      "body": "mi è piaciuto un sacco!"
+    },
+    {
+      "author": "Pluto",
+      "title": "Andate a dormire con i pesci",
+      "body": "Chi dice che non gli piace, mente"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd12"
+  },
+  "title": "Interstellar",
+  "director": "Christopher Nolan",
+  "year": 2014,
+  "genres": [
+    "Adventure",
+    "Drama",
+    "Sci-Fi"
+  ],
+  "rating": 8.6,
+  "cast": [
+    "Matthew McConaughey",
+    "Anne Hathaway",
+    "Jessica Chastain",
+    "Michael Caine"
+  ],
+  "reviews": [
+    {
+      "author": "Pippo",
+      "title": "W Nolan",
+      "body": "mi è piaciuto anche questo!"
+    },
+    {
+      "author": "Pluto",
+      "title": "Abbasso Nolan!!",
+      "body": "Un'altra roba da mal di testa!"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd13"
+  },
+  "title": "The Matrix",
+  "director": [
+    "Lana Wachowski",
+    "Lilly Wachowski"
+  ],
+  "year": 1999,
+  "genres": [
+    "Action",
+    "Sci-Fi"
+  ],
+  "rating": 8.7,
+  "cast": [
+    "Keanu Reeves",
+    "Laurence Fishburne",
+    "Carrie-Anne Moss"
+  ],
+  "reviews": [
+    {
+      "author": "Pippo",
+      "title": "Segui il coniglio Bianco",
+      "body": "mi è piaciuto un sacco!"
+    },
+    {
+      "author": "Pluto",
+      "title": "Buonasera signor Anderson",
+      "body": "Sei in Matrix!"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6673fe1f451b762cf875fd14"
+  },
+  "title": "Inception",
+  "director": "Christopher Nolan",
+  "year": 2010,
+  "genres": [
+    "Action",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "rating": 8.8,
+  "cast": [
+    "Leonardo DiCaprio",
+    "Joseph Gordon-Levitt",
+    "Ken Watanabe"
+  ],
+  "gotOscar": true,
+  "reviews": [
+    {
+      "author": "Pippo",
+      "title": "W Nolan",
+      "body": "mi è piaciuto un sacco!"
+    },
+    {
+      "author": "Pluto",
+      "title": "Abbasso Nolan!!",
+      "body": "Una roba da mal di testa!"
+    }
+  ]
+}]
