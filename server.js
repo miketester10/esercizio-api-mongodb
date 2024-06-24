@@ -188,7 +188,7 @@ connectToDb()
   .then(() => {
     console.log("Connessione a MongoDB (in locale) avvenuta con successo!");
 
-    /*** Ottengo connessione a MongoDB ***/
+    /*** Ottengo connessione da MongoDB ***/
     db = getConnection();
 
     /*** Avvio del server ***/
@@ -197,5 +197,5 @@ connectToDb()
     });
   })
   .catch((err) => {
-    console.error("Errore durante la connessione a MongoDB:", err);
+    console.error("Errore durante la connessione a MongoDB:", err.message);
   });
