@@ -24,7 +24,7 @@ app.set("view engine", "ejs");
 
 /*** API's ***/
 
-// Pagina principale
+// Homepage
 app.get("/", (req, res) => {
   res.render("pages/index");
 });

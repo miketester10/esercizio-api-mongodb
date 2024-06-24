@@ -11,7 +11,7 @@
     <p>Rating: <%= movie.rating %></p>
     <h3>Genres:</h3>
     <ul>
-      <% movie.genres.forEach(genre => { %>
+      <% movie.genres.map(genre => { %>
       <li><%= genre %></li>
       <% }); %>
     </ul>
