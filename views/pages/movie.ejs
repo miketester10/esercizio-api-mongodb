@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie details</title>
+  </head>
+  <body>
+    <h1><%= movie.title %> (<%= movie.year %>)</h1>
+    <h2>Director: <%= movie.director %></h2>
+    <p>Rating: <%= movie.rating %></p>
+    <h3>Genres:</h3>
+    <ul>
+      <% movie.genres.forEach(genre => { %>
+      <li><%= genre %></li>
+      <% }); %>
+    </ul>
+  </body>
+</html>

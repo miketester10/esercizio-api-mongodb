@@ -10,11 +10,44 @@ let db;
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-/*** Set-up Cors e express.json ***/
+/*** Set-up cors, express.json, express.urlencoded ***/
 app.use(cors());
 app.use(express.json());
+app.use(
+  express.urlencoded({
+    extended: true,
+  })
+);
+
+/*** Set-up the view engine to ejs ***/
+app.set("view engine", "ejs");
 
 /*** API's ***/
+
+// Pagina principale
+app.get("/", (req, res) => {
+  res.render("pages/index");
+});
+
+// Gestione POST request (Ottieni movies per "director")
+app.post("/api/v1/postdirector", async (req, res) => {
+  try {
+    // console.log(req.body);
+    let director = req.body.director;
+    const regex = new RegExp(`\\b${director}\\b`, "i");
+    // console.log(regex);
+    const result = await db
+      .collection("movies")
+      .find({ director: { $regex: regex } })
+      .toArray();
+    // res.status(200).json({ success: true, data: result });
+    director = result[0].director;
+    res.render("pages/director", { movies: result, director: director });
+  } catch (err) {
+    console.log(err.message);
+    res.status(500).json({ success: false, data: err.message });
+  }
+});
 
 // Ottieni tutti i movies
 app.get("/api/v1/movies", async (req, res) => {
@@ -25,10 +58,11 @@ app.get("/api/v1/movies", async (req, res) => {
       .find()
       .toArray();
     // console.log(result);
-    res.status(200).json({ success: true, data: result });
+    // res.status(200).json({ success: true, data: result });
+    res.render("pages/movies", { movies: result });
   } catch (err) {
     console.log(err);
-    res.status(500).json({ success: false, data: err });
+    res.status(500).json({ success: false, data: err.message });
   }
 });
 
@@ -38,7 +72,8 @@ app.get("/api/v1/movies/:id", async (req, res) => {
     const objID = new ObjectId(req.params.id);
     // console.log(objID);
     const result = await db.collection("movies").findOne({ _id: objID });
-    res.status(200).json({ success: true, data: result });
+    // res.status(200).json({ success: true, data: result });
+    res.render("pages/movie", { movie: result });
   } catch (err) {
     console.log(err.message);
     res.status(500).json({ success: false, data: err.message });
